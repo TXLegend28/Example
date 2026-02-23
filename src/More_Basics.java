@@ -5,7 +5,7 @@ public static void main(String[] args) {
     System.out.println("In\nCoding");
 
     int i = 2;
-    int j = 98;
+    int j = 97;
 
    IO.println("i + j = " + (i + j));
 
