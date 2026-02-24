@@ -1,4 +1,4 @@
-public class AccountDemo{
+class Account{
 
   //Instance or global variables 
 
@@ -15,32 +15,32 @@ public class AccountDemo{
   }
 
 //Set Methods
-public String setName(String name){
-  this.name = name;
-
+  public String setName(String name) {
+    this.name = name;
+      return name;
   }
-public String setSurname(SString surname){
+
+public String setSurname(String surname){
   this.surname = surname;
-
-  }
+    return surname;
+}
 public double deposit(double amount){
   if(amount > 0)
-  this.balance += ammount;
+    this.balance += amount;
+    return amount;
 
-  }
+}
 //Get Method
 public String getName(){
-  return this.name
+  return this.name;
   }
 public String getSurname(){
-  return this.surname
+  return this.surname;
     }
   public double getBalance(){
-   return this.balance
+   return this.balance;
   }
 
-
-  
 }
 
 

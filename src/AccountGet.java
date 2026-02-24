@@ -9,14 +9,14 @@ Scanner scanner = new Scanner(System.in);
 String name, surname;
 double amount;
 
-System.out.print("Enter name");
+System.out.print("Enter name: ");
   name = scanner.next();
-System.out.print("Enter surname");
+System.out.print("Enter surname: ");
   surname = scanner.next();
-System.out.print("Enter balance")
-  ammount = scanner.nextdouble();
+System.out.print("Enter balance: ");
+  amount = scanner.nextDouble();
     
-Account myAcc = new Account(name, surname, ammount);
+Account myAcc = new Account(name, surname, amount);
     System.out.println("Account Details");
     System.out.println("Name: " +myAcc.getName());
     System.out.println("Surname: " +myAcc.getSurname());
