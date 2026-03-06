@@ -1,13 +1,13 @@
-import java.util.Scannner;
+import java.util.Scanner;
 
-public class Main{
+
 
   public static void main(String[] args){
 
     Scanner input = new Scanner(System.in);
 
     int grade;
-    int total;
+    int total = 0;
     double avg = 0;
     int gradeCount = 0;
     int aGradeCount = 0;
@@ -48,10 +48,10 @@ public class Main{
     
     }
     if (gradeCount != 0){
-      avg = (double) total / gradeCount
-        system.out.printf("The Total: %d%n", total);
-        system.out.printf("The Average: %.2f%n", avg);
-      system.out.printf("%n%s%d%n%n%s%d%n%n%s%d%n%n%s%d%n%n%s%d%n", 
+      avg = (double) total/gradeCount;
+        System.out.printf("The Total: %d%n", total);
+        System.out.printf("The Average: %.2f%n", avg);
+      System.out.printf("%n%s%d%n%n%s%d%n%n%s%d%n%n%s%d%n%n%s%d%n", 
                                     "A:", aGradeCount,
                                     "B:", bGradeCount,
                                     "C:", cGradeCount,
@@ -63,4 +63,4 @@ public class Main{
     }
   }
   
-}
+

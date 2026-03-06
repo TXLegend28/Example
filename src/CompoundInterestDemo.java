@@ -1,10 +1,10 @@
-public class Main{
-  public static void main{
+
+  public static void main(String[] args){
     double capital = 10000.0;
     double interestRate = 0.05;
     double amount;
 
-    system.out.printf("%s%20s%n", "Year", "Amount on Deposit");
+    System.out.printf("%s%20s%n", "Year", "Amount on Deposit");
 
     for (int year =1; year <=10; year++){
     amount = capital * Math.pow(1.0 + interestRate, year);
@@ -14,4 +14,4 @@ public class Main{
 
 
   }
-}
+
