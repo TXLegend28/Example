@@ -52,11 +52,11 @@ import java.util.Scanner;
         System.out.printf("The Total: %d%n", total);
         System.out.printf("The Average: %.2f%n", avg);
       System.out.printf("%n%s%d%n%n%s%d%n%n%s%d%n%n%s%d%n%n%s%d%n", 
-                                    "A:", aGradeCount,
-                                    "B:", bGradeCount,
-                                    "C:", cGradeCount,
-                                    "D:", dGradeCount,
-                                    "F:", fGradeCount);
+                                    "A: ", aGradeCount,
+                                    "B: ", bGradeCount,
+                                    "C: ", cGradeCount,
+                                    "D: ", dGradeCount,
+                                    "F: ", fGradeCount);
     }
     else{
     System.out.println("No grades entered.");
